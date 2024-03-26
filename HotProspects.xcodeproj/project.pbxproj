@@ -13,6 +13,7 @@
 		C50DFBD42BB1338A007AD7D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50DFBD32BB1338A007AD7D1 /* Preview Assets.xcassets */; };
 		C50DFBDE2BB32924007AD7D1 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DFBDD2BB32924007AD7D1 /* ProspectsView.swift */; };
 		C50DFBE02BB3292E007AD7D1 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DFBDF2BB3292E007AD7D1 /* MeView.swift */; };
+		C50DFBE22BB32BA4007AD7D1 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DFBE12BB32BA4007AD7D1 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		C50DFBD32BB1338A007AD7D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C50DFBDD2BB32924007AD7D1 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
 		C50DFBDF2BB3292E007AD7D1 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		C50DFBE12BB32BA4007AD7D1 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C50DFBCC2BB13388007AD7D1 /* HotProspectsApp.swift */,
+				C50DFBE12BB32BA4007AD7D1 /* Prospect.swift */,
 				C50DFBCE2BB13388007AD7D1 /* ContentView.swift */,
 				C50DFBDD2BB32924007AD7D1 /* ProspectsView.swift */,
 				C50DFBDF2BB3292E007AD7D1 /* MeView.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C50DFBE02BB3292E007AD7D1 /* MeView.swift in Sources */,
+				C50DFBE22BB32BA4007AD7D1 /* Prospect.swift in Sources */,
 				C50DFBDE2BB32924007AD7D1 /* ProspectsView.swift in Sources */,
 				C50DFBCF2BB13388007AD7D1 /* ContentView.swift in Sources */,
 				C50DFBCD2BB13388007AD7D1 /* HotProspectsApp.swift in Sources */,
