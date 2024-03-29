@@ -31,7 +31,8 @@ struct MeView: View {
                     .interpolation(.none)
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200, height: 200)
+                    .frame(width: 250, height: 250)
+                    .frame(maxWidth: .infinity, alignment: .center)
                     .contextMenu {
                         ShareLink(item: Image(uiImage: qrCode), preview: SharePreview("My QR Code", image: Image(uiImage: qrCode)))
                     }
